@@ -1,0 +1,497 @@
+{
+  "status": 200,
+  "headers": {
+    "x-billing-cost-micros": "1920",
+    "x-billing-product": "intelligence",
+    "x-billing-receipt": "receipt-2",
+    "x-billing-replayed": "false",
+    "x-request-id": "ENT-c61904eb-b183-4754-9609-6ef2c6eae39b"
+  },
+  "body": {
+    "status": true,
+    "data": {
+      "ip": "8.8.8.8",
+      "as": {
+        "asn": "AS15169",
+        "name": "Google LLC",
+        "domain": "www.google.com",
+        "type": "",
+        "tags": [
+          "anycast_network",
+          "cdn"
+        ],
+        "connectivity": {
+          "declared_traffic": "1 Tbps+",
+          "estimated_capacity": {
+            "lower_gbps": 3000,
+            "label": "3 Tbps 以上"
+          },
+          "exchanges": [
+            {
+              "name": "Exchange 1",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": true
+                }
+              ]
+            },
+            {
+              "name": "Exchange 2",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 3",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 4",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": true
+                }
+              ]
+            },
+            {
+              "name": "Exchange 5",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 6",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 7",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": true
+                }
+              ]
+            },
+            {
+              "name": "Exchange 8",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 9",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 10",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": true
+                }
+              ]
+            },
+            {
+              "name": "Exchange 11",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 12",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 13",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": true
+                }
+              ]
+            },
+            {
+              "name": "Exchange 14",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 15",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 16",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": true
+                }
+              ]
+            },
+            {
+              "name": "Exchange 17",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 18",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 19",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": true
+                }
+              ]
+            },
+            {
+              "name": "Exchange 20",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 21",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 22",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": true
+                }
+              ]
+            },
+            {
+              "name": "Exchange 23",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 24",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 25",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": true
+                }
+              ]
+            },
+            {
+              "name": "Exchange 26",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 27",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 28",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": true
+                }
+              ]
+            },
+            {
+              "name": "Exchange 29",
+              "countryCode": "US",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            },
+            {
+              "name": "Exchange 30",
+              "countryCode": "DE",
+              "type": "physical",
+              "ports": [
+                {
+                  "capacity_gbps": 100,
+                  "operational": true,
+                  "rs_peer": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "network": {
+        "connection_type": "",
+        "usage_type": "",
+        "net_speed": "",
+        "tags": [
+          "cdn"
+        ]
+      },
+      "network_class": {
+        "primary": "hosting",
+        "confidence": "medium",
+        "source": "network_tag",
+        "conflicts": [],
+        "evidence": [
+          {
+            "class": "hosting",
+            "source": "network_tag",
+            "scope": "prefix",
+            "value": "cdn"
+          },
+          {
+            "class": "hosting",
+            "source": "threat_intelligence",
+            "scope": "ip",
+            "value": "is_datacenter"
+          },
+          {
+            "class": "hosting",
+            "source": "asn_tag",
+            "scope": "asn",
+            "value": "cdn"
+          }
+        ]
+      },
+      "threat": {
+        "is_tor": false,
+        "is_vpn": false,
+        "is_icloud_relay": false,
+        "is_cloudflare_warp": false,
+        "is_proxy": false,
+        "is_datacenter": true,
+        "is_anonymous": false,
+        "is_known_attacker": false,
+        "is_known_abuser": true,
+        "is_threat": true,
+        "is_bogon": false,
+        "blocklists": [
+          {
+            "name": "IP-Max",
+            "site": "",
+            "type": "known_abuser"
+          }
+        ],
+        "blocklist_count": 1,
+        "scores": {
+          "vpn_score": 0,
+          "proxy_score": 0,
+          "threat_score": 35,
+          "trust_score": 70
+        }
+      },
+      "rpki": {
+        "status": "valid",
+        "source": "RTR Live",
+        "route_source": "Local DB",
+        "origin_asn": "15169",
+        "route_prefix": "8.8.8.0/24",
+        "roa_prefix": "8.8.8.0/24",
+        "roa_asn": "15169",
+        "max_length": 24,
+        "ta": "arin",
+        "rtr": {
+          "source": "Cloudflare",
+          "lastUpdated": 1790000000
+        }
+      },
+      "is_bogon": false,
+      "is_anycast": false,
+      "is_mobile": false,
+      "is_hosting": true,
+      "is_satellite": false,
+      "intelligence": {
+        "ptr": [
+          {
+            "hostname": "dns.google",
+            "status": "unmatched"
+          }
+        ],
+        "nameservers": [
+          "ns1.google.com"
+        ],
+        "cpes": [],
+        "tags": [
+          "public_dns_resolver"
+        ],
+        "revoked_tags": [
+          "business_broadband",
+          "home_isp",
+          "mobile_isp"
+        ],
+        "usage_type": "数据中心"
+      }
+    }
+  }
+}

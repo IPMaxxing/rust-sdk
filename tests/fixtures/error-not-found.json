@@ -1,0 +1,16 @@
+{
+  "status": 404,
+  "headers": {
+    "x-request-id": "ENT-f1b619f1-4da9-48c6-bb41-8ac819ea863a"
+  },
+  "body": {
+    "status": false,
+    "data": null,
+    "error": {
+      "code": 1003,
+      "message": "This IP address is not in the database",
+      "request_id": "ENT-f1b619f1-4da9-48c6-bb41-8ac819ea863a",
+      "retryable": false
+    }
+  }
+}

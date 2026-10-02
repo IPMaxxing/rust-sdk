@@ -1,0 +1,16 @@
+{
+  "status": 401,
+  "headers": {
+    "x-request-id": "ENT-706ff971-cb85-4933-8b6a-c4e42e0ecce1"
+  },
+  "body": {
+    "status": false,
+    "data": null,
+    "error": {
+      "code": 1010,
+      "message": "Invalid API key",
+      "request_id": "ENT-706ff971-cb85-4933-8b6a-c4e42e0ecce1",
+      "retryable": false
+    }
+  }
+}

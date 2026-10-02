@@ -1,0 +1,43 @@
+{
+  "status": 200,
+  "headers": {
+    "x-billing-cost-micros": "437.5",
+    "x-billing-product": "geoip",
+    "x-billing-receipt": "receipt-5",
+    "x-billing-replayed": "false",
+    "x-request-id": "ENT-e9d101db-11eb-43ef-9f7b-8a9e10e6e5bd"
+  },
+  "body": {
+    "status": true,
+    "data": {
+      "ip": "10.1.2.3",
+      "geo": {
+        "city": "",
+        "region": "",
+        "district": "",
+        "region_code": "",
+        "adcode": "",
+        "country": "",
+        "country_code": "",
+        "continent": "北美洲",
+        "continent_code": "NA",
+        "latitude": 37.4056,
+        "longitude": -122.0775,
+        "timezone": "America/Los_Angeles",
+        "postal_code": "94043",
+        "radius": 5000
+      },
+      "netmask": "10.0.0.0/8",
+      "prefix_length": 8,
+      "is_bogon": true,
+      "currency": null,
+      "time_zone": null,
+      "calling_code": null,
+      "as": {
+        "asn": "",
+        "name": "",
+        "domain": ""
+      }
+    }
+  }
+}

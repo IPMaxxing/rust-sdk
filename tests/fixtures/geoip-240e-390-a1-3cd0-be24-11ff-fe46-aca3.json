@@ -1,0 +1,56 @@
+{
+  "status": 200,
+  "headers": {
+    "x-billing-cost-micros": "437.5",
+    "x-billing-product": "geoip",
+    "x-billing-receipt": "receipt-3",
+    "x-billing-replayed": "false",
+    "x-request-id": "ENT-adeb910d-d670-4f88-a7c7-115433e15fd4"
+  },
+  "body": {
+    "status": true,
+    "data": {
+      "ip": "240e:390:a1:3cd0:be24:11ff:fe46:aca3",
+      "geo": {
+        "city": "广州",
+        "region": "广东省",
+        "district": "",
+        "region_code": "",
+        "adcode": "",
+        "country": "中国",
+        "country_code": "CN",
+        "continent": "亚洲",
+        "continent_code": "AS",
+        "latitude": 37.4056,
+        "longitude": -122.0775,
+        "timezone": "Asia/Shanghai",
+        "postal_code": "94043",
+        "radius": 1000,
+        "country_zh": "中国"
+      },
+      "netmask": "240e:390::/32",
+      "prefix_length": 32,
+      "is_bogon": false,
+      "currency": {
+        "name": "Chinese Yuan",
+        "code": "CNY",
+        "symbol": "¥",
+        "native": "¥",
+        "plural": "Chinese yuan"
+      },
+      "time_zone": {
+        "name": "Asia/Shanghai",
+        "abbr": "GMT+8",
+        "offset": "+0800",
+        "is_dst": false,
+        "current_time": "2026-09-29T16:30:00+08:00"
+      },
+      "calling_code": "86",
+      "as": {
+        "asn": "AS4134",
+        "name": "China Telecom",
+        "domain": "chinatelecom.com.cn"
+      }
+    }
+  }
+}

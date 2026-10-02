@@ -1,0 +1,25 @@
+{
+  "status": 200,
+  "headers": {
+    "x-request-id": "ENT-795d130a-760c-4994-a7aa-4c7d7e271d03"
+  },
+  "body": {
+    "status": true,
+    "data": {
+      "id": "00000000-0000-4000-8000-000000000042",
+      "name": "Fixture",
+      "keyPrefix": "ipmax_test",
+      "wallets": [
+        {
+          "product": "geoip",
+          "balanceMicros": 1000000
+        },
+        {
+          "product": "intelligence",
+          "balanceMicros": 1000000
+        }
+      ],
+      "entries": []
+    }
+  }
+}

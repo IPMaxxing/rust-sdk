@@ -1,0 +1,74 @@
+{
+  "status": 200,
+  "headers": {
+    "x-billing-cost-micros": "1920",
+    "x-billing-product": "intelligence",
+    "x-billing-receipt": "receipt-6",
+    "x-billing-replayed": "false",
+    "x-request-id": "ENT-638b4dc6-c683-4dd7-994b-f122fe1723d5"
+  },
+  "body": {
+    "status": true,
+    "data": {
+      "ip": "10.1.2.3",
+      "as": {
+        "asn": "",
+        "name": "",
+        "domain": "",
+        "type": "Google LLC",
+        "tags": [
+          "anycast_network",
+          "cdn"
+        ]
+      },
+      "network_class": {
+        "primary": "hosting",
+        "confidence": "low",
+        "source": "asn_tag",
+        "conflicts": [],
+        "evidence": [
+          {
+            "class": "hosting",
+            "source": "asn_tag",
+            "scope": "asn",
+            "value": "cdn"
+          }
+        ]
+      },
+      "threat": {
+        "is_tor": null,
+        "is_vpn": null,
+        "is_icloud_relay": null,
+        "is_cloudflare_warp": null,
+        "is_proxy": null,
+        "is_datacenter": null,
+        "is_anonymous": null,
+        "is_known_attacker": null,
+        "is_known_abuser": null,
+        "is_threat": null,
+        "is_bogon": true,
+        "blocklists": [],
+        "blocklist_count": 0,
+        "scores": {
+          "vpn_score": null,
+          "proxy_score": null,
+          "threat_score": null,
+          "trust_score": null
+        }
+      },
+      "is_bogon": true,
+      "is_anycast": false,
+      "is_mobile": false,
+      "is_hosting": true,
+      "is_satellite": false,
+      "intelligence": {
+        "ptr": [],
+        "nameservers": [],
+        "cpes": [],
+        "tags": [],
+        "revoked_tags": [],
+        "usage_type": null
+      }
+    }
+  }
+}

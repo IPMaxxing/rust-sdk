@@ -1,0 +1,26 @@
+{
+  "status": 200,
+  "headers": {
+    "x-request-id": "ENT-7d954ece-6047-4084-b41c-b8c196e7eefc"
+  },
+  "body": {
+    "status": true,
+    "data": {
+      "currency": "CNY",
+      "available": true,
+      "purchaseEmail": "sales@ipmax.example",
+      "prices": [
+        {
+          "product": "geoip",
+          "name": "GeoIP 定位",
+          "unitMicros": 437.5
+        },
+        {
+          "product": "intelligence",
+          "name": "威胁与网络情报",
+          "unitMicros": 1920
+        }
+      ]
+    }
+  }
+}

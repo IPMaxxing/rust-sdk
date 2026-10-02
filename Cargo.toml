@@ -1,0 +1,28 @@
+[package]
+name = "ipmax"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.91"
+description = "Async client for the IP-Max GeoIP and IP intelligence API"
+authors = ["IP-Max <opensource@ipm.ax>"]
+license = "Apache-2.0"
+homepage = "https://ipm.ax"
+repository = "https://github.com/IPMaxxing/rust-sdk"
+readme = "README.md"
+keywords = ["geoip", "ip", "intelligence", "api", "sdk"]
+categories = ["api-bindings", "network-programming", "web-programming::http-client"]
+exclude = [".github"]
+
+[dependencies]
+lru = "0.18.5"
+rand = "0.10.3"
+reqwest = { version = "0.13.5", default-features = false, features = ["rustls", "json"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.151"
+thiserror = "2.0.21"
+tokio = { version = "1.53.1", features = ["time"] }
+uuid = { version = "1.26.1", features = ["v4"] }
+
+[dev-dependencies]
+tokio = { version = "1.53.1", features = ["macros", "rt-multi-thread"] }
+wiremock = "0.6.5"

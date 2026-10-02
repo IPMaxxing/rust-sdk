@@ -1,0 +1,16 @@
+{
+  "status": 400,
+  "headers": {
+    "x-request-id": "ENT-9b178079-212d-4052-ae72-8edf564be6e1"
+  },
+  "body": {
+    "status": false,
+    "data": null,
+    "error": {
+      "code": 1000,
+      "message": "A valid IP and 16-120 character Idempotency-Key are required",
+      "request_id": "ENT-9b178079-212d-4052-ae72-8edf564be6e1",
+      "retryable": false
+    }
+  }
+}

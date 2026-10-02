@@ -1,0 +1,56 @@
+{
+  "status": 200,
+  "headers": {
+    "x-billing-cost-micros": "437.5",
+    "x-billing-product": "geoip",
+    "x-billing-receipt": "receipt-1",
+    "x-billing-replayed": "false",
+    "x-request-id": "ENT-cf92b025-7d59-43f9-9428-2e368d42d65e"
+  },
+  "body": {
+    "status": true,
+    "data": {
+      "ip": "8.8.8.8",
+      "geo": {
+        "city": "山景城",
+        "region": "加利福尼亚州",
+        "district": "",
+        "region_code": "",
+        "adcode": "",
+        "country": "美国",
+        "country_code": "US",
+        "continent": "北美洲",
+        "continent_code": "NA",
+        "latitude": 37.4056,
+        "longitude": -122.0775,
+        "timezone": "America/Los_Angeles",
+        "postal_code": "94043",
+        "radius": 25,
+        "country_zh": "美国"
+      },
+      "netmask": "8.8.8.0/24",
+      "prefix_length": 24,
+      "is_bogon": false,
+      "currency": {
+        "name": "US Dollar",
+        "code": "USD",
+        "symbol": "$",
+        "native": "$",
+        "plural": "US dollars"
+      },
+      "time_zone": {
+        "name": "America/Los_Angeles",
+        "abbr": "PDT",
+        "offset": "-0700",
+        "is_dst": true,
+        "current_time": "2026-09-29T01:30:00-07:00"
+      },
+      "calling_code": "1",
+      "as": {
+        "asn": "AS15169",
+        "name": "Google LLC",
+        "domain": "www.google.com"
+      }
+    }
+  }
+}
